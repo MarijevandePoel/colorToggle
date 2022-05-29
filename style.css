@@ -1,0 +1,109 @@
+*{margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+header {
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+main{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menuToggle{
+    display:block;
+    position:relative;
+    margin-right: 5px;
+    top: 20px;
+    left: 20px;
+    padding: 3px;
+    width: 50px;
+    z-index: 1;
+    user-select: none;
+}
+
+.menuToggle input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -6px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+.menuToggle span{
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: white;
+    color: white;
+    border-radius: 3px;
+}
+
+.menu{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 45px;
+    margin-left: -50px;
+    position: relative;
+    transition: right 0.5s ease-in;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 0;
+    left: -10px;
+    transition: right 0.5s ease-in;
+}
+
+.color{
+    text-decoration: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+
+}
+
+#home { 
+    background-color: black;
+}
+
+#red {
+    background-color: red;
+    
+}
+#orange {
+    background-color: orange;
+}
+#yellow { background-color: yellow;}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple{
+    background-color: purple;
+}
+
+#pink{
+    background-color: magenta;
+}
